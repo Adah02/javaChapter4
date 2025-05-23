@@ -1,9 +1,6 @@
-import java.util.Scanner;
 public class AsterisksPatterns {
 
 	public static void main(String[] args){
-
-	Scanner input = new Scanner(System.in);
 	
 	System.out.print("Pattern A");
 	int rows = 10;
@@ -35,11 +32,11 @@ public class AsterisksPatterns {
 	}
 	System.out.print("Pattern D");
 	for (int i = 10; i >= 1; i--){
-	System.out.println(" ".repeat(rows -i));
-		for (int d = 1; d <= 10; d++){
+	System.out.println(" ".repeat(rows -i));		
+		for (int d = 1; d <= i; d++){
 		System.out.print("*");
-		System.out.print("");
 		}
+	
 	}
 	
 	
