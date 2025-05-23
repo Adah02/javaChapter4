@@ -34,9 +34,9 @@ public class AsterisksPatterns {
 	System.out.println();
 	}
 	System.out.print("Pattern D");
-	for (int i = 1; i <= 10; ++i){
+	for (int i = 10; i >= 1; i--){
 	System.out.println(" ".repeat(rows -i));
-		for (int d = 1; d <= i; d++){
+		for (int d = 1; d <= 10; d++){
 		System.out.print("*");
 		System.out.print("");
 		}

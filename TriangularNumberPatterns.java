@@ -10,7 +10,7 @@ public class TriangularNumberPatterns {
 	for (int i = 1; i <= 6; ++i){
 	System.out.println(" ".repeat(rows));
 		for (int d = 1; d <= i; d++){
-		System.out.print(d+ "  ");
+		System.out.print(d+ "");
 		System.out.print("");
 		}
 	} 
@@ -19,17 +19,17 @@ public class TriangularNumberPatterns {
 	for (int i = 6; i >= 1; --i){
 	System.out.println(" ".repeat(rows));
 		for (int d = 1; d <= i; d++){
-		System.out.print(d+ "  ");
+		System.out.print(d+ "");
 		}
 	} 
 	System.out.println("\t");
 	System.out.print("Pattern C");
 	for (int i = 1; i <= 6; i++){
-	System.out.println(" ".repeat(rows -1));
+	System.out.println("   ".repeat(rows));
 		for (int d = 1; d <= i; ++d){
-		System.out.print(d+ "  ");
+		System.out.print(d+ "");
 		}
 	}
-	System.out.print("");
+	System.out.print("  ");
 	}
 }

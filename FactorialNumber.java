@@ -8,7 +8,7 @@ public class FactorialNumber {
 	System.out.print("Enter an integer: ");
 	int userInput = input.nextInt();
 
-	long factorial = 1;
+	int factorial = 1;
 
 	for (int i = 1; i <= userInput; ++i){
 	factorial *= i;
